@@ -1,5 +1,6 @@
 {
   "name": "fast-lab",
+  "homepage": "https://192.168.15.168:8001/html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -11,7 +11,7 @@ const { Text } = Typography;
 function App() {
   const [patients, setPatients] = useState([]);
   useEffect(() => {
-    fetch('http://localhost/labchart/labchart.php?piso=6')
+    fetch('http://localhost/labchart.php?piso=7')
       .then((response) => response.json())
       .then(setPatients);
   }, []);
